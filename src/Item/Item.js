@@ -18,7 +18,7 @@ const Item = (
 
   return (
     <div>
-      {item.id} -- {item.title} -- {item.date} -- checked: <Checkbox checked={item.checked} onChange={handleCheckItem}></Checkbox>
+      {item.id} -- {item.title} -- {item.date} -- =D checked: <Checkbox checked={item.checked} onChange={handleCheckItem}></Checkbox>
     </div>
   );
 };
